@@ -339,6 +339,5 @@ export default function PortfolioIDE() {
         <span className="status-right">ignacioquiroga237@gmail.com</span>
       </div>
     </div>
-  );
   </>
 )}
