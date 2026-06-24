@@ -178,7 +178,6 @@ public class PagoFacil implements Empleo {
       "compile:",
       "run:",
       "     [java] Transacciones/día: +50",
-      "     [java] Monto promedio: ARS 300.000",
       "     [java] Errores de caja: 0",
       "BUILD SUCCESSFUL (total time: 0 seconds)",
     ],
@@ -511,7 +510,6 @@ public class Cliente {
 ===========================================
 
 Email     : ignacioquiroga237@gmail.com
-Teléfono  : +54 9 11 2403-0798
 LinkedIn  : linkedin.com/in/ignacio-agustin-quiroga
 GitHub    : github.com/Nacho230
 Ubicación : Buenos Aires, Argentina
