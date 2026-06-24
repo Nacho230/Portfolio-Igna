@@ -52,7 +52,7 @@ export const files = {
     language: "java",
     githubUrl: null,
     code: `/**
- * Ignacio Agustín Quiroga Atum
+ * Ignacio Quiroga
  * Estudiante de Ingeniería en Informática — UNAJ
  * Buenos Aires, Argentina
  *
@@ -160,7 +160,6 @@ public class Habitium implements Empleo {
 public class PagoFacil implements Empleo {
 
     private final int    transaccionesPorDia = 50;
-    private final double montoPromedioARS    = 300_000;
     private final int    erroresDeCaja       = 0;
 
     @Override
