@@ -57,7 +57,7 @@ export const files = {
  * Buenos Aires, Argentina
  *
  * Perfil híbrido: operaciones de e-commerce + desarrollo backend.
- * Uso IA (Claude, Copilot) en el flujo diario, no solo como línea de CV.
+ * Uso IA (Claude, Gemini) en el flujo diario, no solo como línea de CV.
  */
 public class Perfil {
 
