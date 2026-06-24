@@ -19,7 +19,7 @@ Un portfolio web interactivo construido con React que simula la experiencia visu
 
 ## 🚀 Despliegue (Demo)
 
-El proyecto se encuentra desplegado y funcionando en: **[Agregar link de Vercel aquí]**
+El proyecto se encuentra desplegado y funcionando en: **[https://portfolio-ide-one.vercel.app/]**
 
 ## 📂 Estructura Principal del Código
 
