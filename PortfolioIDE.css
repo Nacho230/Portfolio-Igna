@@ -449,8 +449,59 @@ body {
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--border-light); border-radius: 3px; }
 
-/* ── Responsive básico ── */
-@media (max-width: 700px) {
-  .sidebar { width: 160px; min-width: 140px; }
-  .ide-wrapper { height: 100vh; border-radius: 0; max-height: 100vh; }
+/* ── Pantalla de advertencia para móviles (Terminal) ── */
+.mobile-warning {
+  display: none; /* Oculto por defecto en PC */
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  padding: 40px 20px;
+  font-family: var(--font-mono);
+  box-sizing: border-box;
+}
+
+.mobile-warning p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.error-text {
+  color: #FF5F57; /* Rojo para el error */
+  font-weight: bold;
+}
+
+.info-text {
+  color: #A9B7C6; /* Gris del código */
+}
+
+/* Efecto de cursor parpadeando para más realismo */
+.blink-cursor {
+  color: #A9B7C6;
+  animation: blink 1s step-end infinite;
+  margin-top: 20px !important;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* ── Comportamiento en pantallas chicas ── */
+@media (max-width: 768px) {
+  /* Ocultamos todo el IDE */
+  .ide-wrapper {
+    display: none !important;
+  }
+  
+  /* Mostramos la terminal falsa */
+  .mobile-warning {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  /* Quitamos el fondo gris para que todo sea negro */
+  body {
+    background: #000000;
+  }
 }

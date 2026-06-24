@@ -230,6 +230,15 @@ export default function PortfolioIDE() {
   const activeFile = files[activeTab];
 
   return (
+    <>
+    {/* ── Pantalla Terminal para Celulares ── */}
+      <div className="mobile-warning">
+        <p className="error-text">&gt; ERROR_FATAL: Resolución de pantalla no soportada.</p>
+        <p className="info-text">&gt; SYSTEM_HALTED: Para vivir la experiencia completa del IDE y ver el código,</p>
+        <p className="info-text">&gt; por favor abrí este enlace desde una computadora de escritorio.</p>
+        <p className="blink-cursor">_</p>
+      </div>
+
     <div className="ide-wrapper">
       {/* ── Barra de título ── */}
       <div className="title-bar">
@@ -331,4 +340,5 @@ export default function PortfolioIDE() {
       </div>
     </div>
   );
-}
+  </>
+)}
